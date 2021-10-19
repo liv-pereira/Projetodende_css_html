@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header com informações de contato */
+header {
+  background-color: #205ca4;
+  width: 100%;
+  height: 45px;
+  text-align: right;
+  color: white;
+}
+/* afastamento da barra de contato */
+.barradecontato {
+  padding-right: 80px;
+  padding-top: 15px;
+}
+/* barra de navegação com logotipo a esquerda */
+nav {
+  height: 85px;
+  width: 100%;
+  background-color: #b8cae1;
+  border: solid #f39d30;
+  display: flex;
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+#menunavegação {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  color: #205ca4;
+}
+/* Informações de deslocamento do logatipo  */
+.fotologo {
+  height: 200px;
+  width: 200px;
+  margin-top: -60px;
+}
+.listanavegação {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  padding: 15px 15px 0px 70px;
+  font-weight: bold;
+  flex-direction: row;
+  color: #205ca4;
+}
+/* Retirando a formação do botão hiperlink */
+a.listanavegação {
+  text-decoration: none;
+}
+/* Aplicando efeito no botão quando passamos o mouse por cima. */
+.listanavegação:hover {
+  color: #f39d30;
+  font-size: 25px;
+}
+/* Colocação de fundo da tela com definições do tamanho da tag semântica article */
+article {
+  /* width: 100%; */
+  /* height: 800px; */
+  background-color: #fad4a6;
+}
+/* posicionamento do banner */
+#banner {
+  /* margin-bottom: 50px;  */
+  margin-left: 150px;
+  padding-top: 1rem;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #205ca4;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom:1rem ;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ff8c00;
+  font-size: 30px;
+  text-shadow: #111 2px 3px 2px;
+  margin-bottom: 1rem;
+}
+
+/* Flexbox para ficar coluna lado a lado  */
+.container {
+  display: flex;
+  /* width: 1350px; */
+  height: 290px;
+}
+.infos_empresa {
+  text-align: center;
+}
+
+.formato_texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-indent: 30px;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  box-sizing: border-box ;
+}
+/* Estilização do rodapé com cor de fundo, tamanho e largura */
+footer {
+  background-color: #7196c3;
+  height: 100px;
+  width: 100%;
+}
+address {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 25px;
+
+}
+.Copyright {
+  padding-right: 20px;
+  text-align: right;
+}
+
+
+

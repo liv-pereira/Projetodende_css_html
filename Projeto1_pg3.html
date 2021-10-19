@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/estilo3.css" />
+    <title>Oil dendê Ltda</title>
+  </head>
+  <body>
+    <header>
+      <section class="barradecontato">
+        <p>Telefone de contato: (075) 3256-0000</p>
+      </section>
+    </header>
+    <nav>
+      <ul id="menunavegação">
+        <li>
+          <img class="fotologo" src="img/newlogo.png" alt="Logo da empresa" />
+        </li>
+        <li class="listanavegação">
+          <a class="listanavegação" href="Projeto1.html">HOME</a>
+        </li>
+        <li class="listanavegação">
+          <a class="listanavegação" href="Projeto1_pg2.html"
+            >RECICLAGEM DO ÓLEO</a
+          >
+        </li>
+        <li class="listanavegação">
+          <a class="listanavegação" href="Projeto1_pg3.html"> FALE CONOSCO</a>
+        </li>
+      </ul>
+    </nav>
+    <article id="formulário1">
+      <h2>FALE CONOSCO</h2>
+      <br />
+      <!--Formulário para o cliente comentar de um assunto específico-->
+      <form>
+        <p>
+          <label for="Nome"> Nome: </label>
+          <input type="text" id="Nome" placeholder="Digite aqui seu nome." />
+        </p>
+        <br />
+        <p>
+          <label for="email">Email:</label>
+          <input
+            type="Email"
+            id="email"
+            nome="email"
+            placeholder="Digite aqui seu email."
+          />
+        </p>
+        <br />
+        <p>
+          <label for="telefone">Telefone:</label>
+          <input type="telefone" id="telefone" nome="telefone" />
+        </p>
+        <br />
+        <p>
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto">
+            <option>Selecione o conteúdo</option>
+            <option value=" Abertura ">Abertura de ponto de coleta</option>
+            <option value=" Encontre ">Encontre um de ponto de coleta</option>
+            <option value=" Cooperativas ">Cooperativas</option>
+            <option value=" Oficinas">Oficinas</option>
+            <option value=" Outros">Outros</option>
+          </select>
+        </p>
+        <br />
+        <p>
+          <label for="Mensagem"> Mensagem: </label>
+          <textarea
+            id="mensagem"
+            placeholder="Deixe aqui sua mensagem!"
+          ></textarea>
+        </p>
+        <br />
+        <p>
+          <button class="bt" type="reset">LIMPAR</button>
+          <button class="bt" type="submit">ENVIAR</button>
+        </p>
+        <br />
+      </form>
+    </article>
+
+    <!--Formulário para cadastro de parceiros-->
+    <article id="formulário2">
+      <form>
+        <h2 class="fort_tituloform2">FORMULÁRIO PARA PARCEIROS</h2>
+        <br />
+
+        <p>
+          <label for="cnpj"></label>
+          <input type="number" id="cnpj" nome="cnpj" placeholder="CNPJ" />
+        </p>
+        <br />
+        <p>
+          <label for="senha"></label>
+          <input type="password" id="senha" name="senha" placeholder="SENHA" />
+        </p>
+        <br />
+        <p>
+          <button class="bt" type="submit">ENVIAR</button>
+        </p>
+        <br />
+      </form>
+      <br />
+    </article>
+    <footer>
+      <!--Tag <address com o endereço da empresa -->
+      <address>
+        Oil Dendê Ltda <br />
+        Estrada Valença km 8 <br />
+        CEP: 48752-00
+      </address>
+      <p class="Copyright">
+        Copyright ©️ 2021 Oil Dendê - Todos os direitos reservado
+      </p>
+    </footer>
+  </body>
+</html>

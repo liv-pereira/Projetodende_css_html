@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header com informações de contato */
+header {
+  background-color: #205ca4;
+  width: 100%;
+  height: 45px;
+  text-align: right;
+  color: white;
+}
+body {
+  background-color: #205ca4;
+}
+/* afastamento da barra de contato */
+.barradecontato {
+  padding-right: 80px;
+  padding-top: 15px;
+}
+/* barra de navegação com logotipo a esquerda */
+nav {
+  height: 85px;
+  width: 100%;
+  background-color: #b8cae1;
+  border: solid #f39d30;
+  display: flex;
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+/* Display flexível feito na direção linha */
+#menunavegação {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  color: #205ca4;
+}
+/* Informações de deslocamento do logatipo  */
+.fotologo {
+  height: 200px;
+  width: 200px;
+  margin-top: -75px;
+}
+/* Estilização dos itens da barra de navegação. */
+.listanavegação {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  padding: 15px 15px 0px 70px;
+  font-weight: bold;
+  flex-direction: row;
+  color: #205ca4;
+}
+/* Retirando a formação do botão hiperlink */
+a.listanavegação {
+  text-decoration: none;
+}
+/* Aplicando efeito no botão quando passamos o mouse por cima. */
+.listanavegação:hover {
+  color: #f39d30;
+  font-size: 25px;
+}
+
+#formulário1 {
+  background-color: #b8cae1;
+  padding-left: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #205ca4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bt {
+  color: #fff;
+  background-color: #205ca4;
+  width: 100px;
+  height: 25px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bt:hover {background-color: #f39d30;
+transition: 1.5s;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border: 3px solid #205ca4;
+}
+#formulário2 {
+  background-color: #b8cae1;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+h2 {
+  color: #205ca4;
+  margin-bottom:1rem ;
+
+}
+.fort_tituloform2 {
+  color: #205ca4;
+}
+/* Estilização do rodapé com cor de fundo, tamanho e largura */
+footer {
+  background-color: #7196c3;
+  height: 100px;
+  width: 100%;
+}
+input,
+select {
+  border-radius: 5px;
+  height: 25px;
+}
+textarea {
+  height: 100px;
+  width: auto;
+  display: block;
+  border-radius: 5px;
+}
+/* Posicionamento do endereço */
+address {
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 20px;
+
+}
+/* posicionamento do Copyright */
+.Copyright {
+  padding-right: 20px;
+  text-align: right;
+}
+
+.container_formulario {
+  margin:auto;
+  margin-top: 32px;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.item_form {
+  margin: auto;
+  /* height: 500px; */
+  text-align: left;
+  margin: 50px;
+  
+  border-radius: 10px;
+}
+.item_form1 {
+  height: 500px;
+  width: 300px;
+}
+.item_form2 {
+  height: 200px;
+  width: 400px;
+}
